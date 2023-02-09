@@ -61,6 +61,15 @@
             <td>40</td>
         </tr>
     </table>
+    <hr>
+    <h3>Code snippet</h3>
+    <blockquote>For instance if you want to detect whether the "Enter"-key was clicked or not?</blockquote>
+    <a href="https://stackoverflow.com/questions/35394937/keyboardevent-keycode-deprecated-what-does-this-mean-in-practice">source link</a>
+    <pre>
+        document.addEventListener("keydown", function(event) {
+            console.log(event.which);
+          })
+    </pre>
     </body>
 </html>
 
